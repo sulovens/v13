@@ -1,12 +1,5 @@
 Simpel WhatsApp Bot v13
 
-## ```SETTING```
-
-- Owner number [Here](https://github.com/Haikalbotz/v7/blob/master/setting.json#L4)
-- Owner name [Here](https://github.com/Haikalbotz/v7/blob/master/setting.json#L13)
-- Botname [Here](https://github.com/Haikalbotz/v7/blob/master/setting.json#L14)
-
-
 ## FOR TERMUX USER
 
 ```
@@ -48,3 +41,8 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 > rm -rf simple.json
 > npm start
 ```
+## ```SETTING```
+
+- Owner number [Here](https://github.com/saipulanuar/v13/blob/master/setting.json#L2)
+- Owner name [Here](https://github.com/saipulanuar/v13/blob/master/setting.json#L14)
+- Botname [Here](https://github.com/saipulanuar/v13/blob/master/setting.json#L13)
