@@ -1,5 +1,12 @@
 Simpel WhatsApp Bot v13
 
+## ```SETTING```
+
+- Owner number [Here](https://github.com/Haikalbotz/v7/blob/master/setting.json#L4)
+- Owner name [Here](https://github.com/Haikalbotz/v7/blob/master/setting.json#L13)
+- Botname [Here](https://github.com/Haikalbotz/v7/blob/master/setting.json#L14)
+
+
 ## FOR TERMUX USER
 
 ```
@@ -12,8 +19,8 @@ Simpel WhatsApp Bot v13
 > pkg install libwebp
 > git clone https://github.com/saipulanuar/v13
 > cd v13
-> git clone https://github.com/saipulanuar/node_modules
-> rm -rf session.json
+> npm install
+> rm -rf simple.json
 > npm start
 ```
 
@@ -37,7 +44,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 > git clone https://github.com/saipulanuar/v13
 > cd v13
-> git clone https://github.com/saipulanuar/node_modules
-> rm -rf session.json
+> npm install
+> rm -rf simple.json
 > npm start
 ```
