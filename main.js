@@ -10,7 +10,7 @@ const moment = require('moment-timezone')
 const { wait, banner, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, close } = require('./lib/functions')
 const { color } = require('./lib/color')
 const _welkom = JSON.parse(fs.readFileSync('./tempatdata/welcome.json'))
-number = '6288279268363@s.whatsapp.net'
+number = '628979401640@s.whatsapp.net'
 require('./simple.js')
 nocache('./simple.js', module => console.log(`${module} telah di update!`))
 
@@ -80,7 +80,7 @@ pp_grup =
 "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60"
 }
 if (anu.action == "add" && mem.includes(simple.user.jid)) {
-simple.sendMessage(anu.jid, "_*Makasih Udah Add Saya, Hay Semua Saya Adalah YUKI BOT Silahkan ketik .menu Untuk Memulai*_")
+simple.sendMessage(anu.jid, "_*Makasih Udah Add Saya, Hay Semua Saya Adalah HELIX BOY Silahkan ketik .menu Untuk Memulai*_")
 }
       
 if (anu.action == 'add') {
@@ -105,7 +105,7 @@ ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 }
 img = await getBuffer(ppUrl)
 teks = `Bye 👋@${num.split('@')[0]}\nSemoga Amal IBdahnya Si Terima Di sisi Tuhan Yang Maha Esa Selamat Tinggal Di Group: ${mdata.subject}`
-sendButImage(anu.jid, teks, `© Di Buat Oleh : King Of Bear`, img,but= [{buttonId: `byebye`, buttonText: {displayText: `See You Broo?👋!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, number]}, thumbnail: Buffer.alloc(0)})
+sendButImage(anu.jid, teks, `© Di Buat Oleh : HELIX BOT`, img,but= [{buttonId: `byebye`, buttonText: {displayText: `See You Broo?👋!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, number]}, thumbnail: Buffer.alloc(0)})
 } if (anu.action == "promote") {
         const mdata = await simple.groupMetadata(anu.jid)
         anu_user = simple.contacts[mem]
@@ -137,7 +137,7 @@ sendButImage(anu.jid, teks, `© Di Buat Oleh : King Of Bear`, img,but= [{buttonI
         }
 
         let buff = await getBuffer(
-          `https://gatauajg.yogipw.repl.co/api/demote?name=${anu_user.notify}&msg=selamat%20menjadi%20admin&mem=5&picurl=${ppimg}&bgurl=https://cdn.discordapp.com/attachments/819995259261288475/835055559941292032/style.jpg`
+          `https://gatauajg.yogipw.repl.co/api/demote?name=${anu_user.notify}&msg=selamat%20menjadi%20admin%20mamang&mem=5&picurl=${ppimg}&bgurl=https://cdn.discordapp.com/attachments/819995259261288475/835055559941292032/style.jpg`
         )
         teks = `@${num.split("@")[0]} Telah didemote`
         simple.sendMessage(mdata.id, teks, MessageType.text)
